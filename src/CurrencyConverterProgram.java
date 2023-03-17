@@ -42,7 +42,7 @@ public class CurrencyConverterProgram extends JFrame implements ActionListener {
         this.add(convertButton);
 
         // setup
-        this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         this.setLocationRelativeTo(null);
         this.setSize(400, 150);
         this.setResizable(false);
